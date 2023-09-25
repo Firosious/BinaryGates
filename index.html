@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- In the head I import some useful scripts & tools for my website, aswell as setting the tab title for my Website -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Binary Gates Website - Web Authoring Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="https://yourhostingservice/smoothscroll.js"></script>
+</head>
+
+<!-- This is the body of the website and will contain everything within the website in it -->
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+              <!-- This is my Website's Logo -->
+                <div class="logo">
+                    FIROSE
+                </div>
+
+                <!-- This is the code for the Menu/Nav Bar -->
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#images">Gallery</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- This is my code for the main text in the home screen-->
+            <body>
+                <div class="btext">
+                    <h1 style="font-size: 100px">Binary Gates</h1>
+                    <p>Showcase of the Binary/Logic Gate Truth Tables Calculator</p>
+                    <p>Enjoy my website for my first mobile app :)</p>
+                    <!-- Here is the code to the button which is Labeled "Get Started" -->
+                    <a href="#about" class="btn active-animatioon">Get Started</a>
+                </div>
+            </body>
+        </header>
+
+        <!-- This section of the page contains text and information about my website. This is the About Section -->
+        <section id="about" class="titlebox">
+            <div class="content">
+                <div>
+                <h1 class="title">About our Project Journey and Team</h1>
+                <p>
+                    Our team was a united trio, Ali, Ryan, and myself. We set out on an exciting journey to create a tool that would help young people interact with technology in a more meaningful way. Under the guidance of our mentor Doug Barnes, we developed an application that made learning about binary logic gates (AND, OR, XOR) fun and intuitive. Even though we had a tight schedule of four weeks, we managed to deliver the project successfully.
+                    <br> However, our vision extended beyond just the core application. We also undertook two more critical tasks:</br>
+                    <br> 1. We built a Raspberry Pi interface, equipped with Android 7.11, to run our Binary Gates app. It was a hands-on experience, integrating cutting-edge hardware with our software, further showing our commitment to practical tech education.</br>
+                    <br> 2. We designed an informative website to record our project's journey. This site serves as a resource for Doug's future students, helping them understand the tech we used in a straightforward and engaging way.</br>
+                </p>
+                <p>
+                    <br>In addition, we also created a video showcasing our app's journey from concept to reality, adding a visual dimension to our learning resources.</br>
+                </p>
+                <p>
+                    Our team's roles were divided efficiently under the SCRUM model. Doug Barnes served as the Product Owner, overseeing our progress. Sandra Been, our Scrum Master, coordinated our efforts. Ali, Ryan, and I formed the backbone of the project with individual responsibilities. Ali managed the testing, bug detection, and setup of the Raspberry Pi. Ryan contributed by testing for bugs and creating the project website. As the lead programmer, I focused on building the Binary Gates app and offered support to Ali and Ryan when needed.
+                    Our Binary Gates app was not just a project but a tool to inspire the younger generation about technology. We aimed to make tech education interactive and fun, encouraging kids and teenagers to delve deeper into the digital world. We believe our project has taken a step forward in creating future tech enthusiasts, innovators, and perhaps even leaders.
+                </p>
+                </div>
+                <div class="contentfurther">
+                <h1 class="title">Our Technological Toolbox</h2>
+                  <p> We utilized a diverse array of cutting-edge tools to successfully execute our project, each playing a crucial role in shaping our final product:</p>
+                  <br> Adobe Photoshop CC: This powerful graphic design software played a key role in our ideation process. It was used to sketch out the preliminary designs and create a visual expectation of our final products. This included the user interface for the Binary Gates app and the website's layout.</br>
+                  <br> Android Studio: As our primary tool for app development, we used Android Studio to program, compile and debug the Binary Gates app. With its extensive capabilities, we were able to proficiently write our app in Java and Kotlin, optimizing for robust performance and user experience.</br>
+                  <br> Sublime Text: When it came to crafting our website, Sublime Text was our go-to tool for writing clean and efficient code. We used it to write HTML, CSS, and JavaScript in a more detailed manner, enhancing the user interface and functionality of our site.</br>
+                  <br> DreamWeaver: Though DreamWeaver is often viewed as an older professional tool, we believed in exploring its functionality to gain a broader understanding of web design. We dabbled in its use, benefiting from its ability to integrate HTML, CSS, and JavaScript. However, it served as more of an educational detour rather than our main web development tool.</br>
+                  <br> As a contemporary, user-friendly platform, WordPress played a significant role in our project. We leveraged its vast array of pre-designed themes and powerful plugins to enhance the aesthetic and functional aspects of our website. However, while WordPress is a versatile tool, we valued the importance of core web development skills above all. Hence, we used WordPress merely as a supportive tool, with the bulk of our website being carefully handcrafted. I meticulously wrote our HTML, CSS, and JavaScript code, ensuring our site was tailor-made to meet the specific needs of our project.</br>
+                  <br> Raspberry Pi: Raspberry Pi: To emulate the real-world operation of our app, we used Raspberry Pi. This versatile device, running Android 7.11, served as the physical representation of our Binary Gates app, demonstrating its practical application and seamless operation.</br>
+                  <br> Burndown Chart: As a crucial project management tool, the Burndown Chart helped us track our progress, manage our time effectively, and ensure that we were meeting our project milestones.</br>
+                  <br> Planning Poker: We incorporated Planning Poker into our Sprint planning phase. This tool, based on the principle of consensus-based estimating, fostered an atmosphere of effective communication and collaborative decision-making, steering our team towards our shared project goals.</br>
+                </div>
+                <div class="contentfurther">
+                  <h1 class="title">User Stories</h2>
+                  User Stories are a very high-level definition of a requirement, containing just enough information so that the developers can produce a reasonable estimate of the effort to implement it. For this Doug Barnes, our Product owner sat down with us and discussed what requirements he wanted the products to contain in the finished project.
+                  <br> The basic format of a user story is written down as “As… I want… because…”.
+                  <br>
+                  <br>We set hours on each task in the user story. This allowed us to time manage the entire project as it is efficient for other members to know how long is needed and what level of priority and difficulty certain tasks are. The information based on the hours needed to complete can be used in a burndown chart to estimate whether or not projects will be completed on time.
+                  <br>
+                  <br>We time managed it so that all the programming elements for the App such as planning, development and testing were heavily prioritised as the Raspberry Pi and Website depended on it. We set 3-4 hours for certain tasks on average with exception to the Binary Gates App development and Doug’s video for the entire project. Each of these received 5-6 hours on average as they were highly prioritised. 
+                  <br>
+                </div>
+            </div>
+        </section>
+
+        <!-- This section of the page contains images in a pleasing gallery format. This is the Gallery Section -->
+        <section id="images" class="titlebox">
+            <div class="content">
+                <h1 class="title">Gallery - Screenshots Android Studio</h1>
+                <p style="text-align: center;">
+                    Here is all our Screenshots of the development of the Binary Gates App. Some from Android Studio, others from our design, planning and testing phases. Make sure to read texts underneath each picture after clicking of them!
+                </p>
+            </div>
+            <div class="gallery">
+                <a href="images/FullUIScreen.jpg" data-lightbox="mygallery" data-title="Full Screen View of Android Studio on the Vertical UI View">
+                    <img src="images/tnFullUIScreen.jpg" alt="Thumbnail of Full Screen View of Android Studio on the Vertical UI View">
+                </a>
+                <a href="images/BgUIView.jpg" data-lightbox="mygallery" data-title="Binary Gates App Vertical UI View">
+                    <img src="images/tnBgUIView.jpg" alt="Thumbnail of Binary Gates App Vertical UI View">
+                </a>
+                <a href="images/FullUIScreenLand.jpg" data-lightbox="mygallery" data-title="Full Screen View of Android Studio on the Landscape UI View">
+                    <img src="images/tnFullUIScreenLand.jpg" alt="Thumbnail of Full Screen View of Android Studio on the Landscape UI View">
+                </a>
+                <a href="images/BgUIViewLand.jpg" data-lightbox="mygallery" data-title="Binary Gates App Landscape UI View">
+                    <img src="images/tnBgUIViewLand.jpg" alt="Thumbnail of Binary Gates App Landscape UI View">
+                </a>
+                <a href="images/BgMainFile.jpg" data-lightbox="mygallery" data-title="Main java code file for the App defining each element">
+                    <img src="images/tnBgMainFile.jpg" alt="Thumbnail of main java code file for the App">
+                </a>
+                <a href="images/BgMainGateCode.jpg" data-lightbox="mygallery" data-title="Main if statements for logic gate buttons">
+                    <img src="images/tnBgMainGateCode.jpg" alt="Thumbnail of main if statements for logic gate buttons">
+                </a>
+                <a href="images/BgStringList.jpg" data-lightbox="mygallery" data-title="String file for editing text on buttons and textViews">
+                    <img src="images/tnBgStringList.jpg" alt="Thumbnail of String file">
+                </a>
+                <a href="images/BgEmulatorImg.jpg" data-lightbox="mygallery" data-title="Screenshot of Android Studio and the built in phone emulator">
+                    <img src="images/tnBgEmulatorImg.jpg" alt="Thumbnail of Android Studio and emulator">
+                </a>
+                <a href="images/BgConsoleView.jpg" data-lightbox="mygallery" data-title="Screenshot of the console while running the emulator">
+                    <img src="images/tnBgConsoleView.jpg" alt="Thumbnail of the console while running the emulator">
+                </a>
+                <a href="images/VerticalMonitorView.jpg" data-lightbox="mygallery" data-title="App running on Vertical mode in Pearse College's Staff room Monitor">
+                    <img src="images/tnVerticalMonitorView.jpg" alt="Thumbnail of App on Vertical mode in Monitor">
+                </a>
+                <a href="images/UIOverLapMonitorError.jpg" data-lightbox="mygallery" data-title="UI bugs in Landscape mode with messy layout">
+                    <img src="images/tnUIOverLapMonitorError.jpg" alt="Thumbnail of UI bugs in Landscape mode">
+                </a>
+                <a href="images/WorkingMonitor.jpg" data-lightbox="mygallery" data-title="Working app on Landscape mode">
+                    <img src="images/tnWorkingMonitor.jpg" alt="Thumbnail of working app on Landscape mode">
+                </a>
+                <a href="images/RaspberryPi1.jpg" data-lightbox="mygallery" data-title="Raspberry Pi used to emulate Android 4.0 and run the App">
+                    <img src="images/tnRaspberryPi1.jpg" alt="Thumbnail of Raspberry Pi used to emulate Android 4.0">
+                </a>
+                <a href="images/RaspberryPi2.jpg" data-lightbox="mygallery" data-title="Another picture of the Raspberry Pi used to emulate Android 4.0">
+                    <img src="images/tnRaspberryPi2.jpg" alt="Another Thumbnail of Raspberry Pi used to emulate Android 4.0">
+                </a>
+                <a href="images/UserStories.jpg" data-lightbox="mygallery" data-title="User Stories for our projects">
+                    <img src="images/tnUserStories.jpg" alt="Thumbnail of User Stories for projects">
+                </a>
+                <a href="images/Tasks.jpg" data-lightbox="mygallery" data-title="All the tasks to be done">
+                    <img src="images/tnTasks.jpg" alt="Thumbnail of Tasks">
+                </a>
+                <a href="images/TodoList.jpg" data-lightbox="mygallery" data-title="To-Do List">
+                    <img src="images/tnTodoList.jpg" alt="Thumbnail of To-Do List">
+                </a>
+                <a href="images/AliSuccess.jpg" data-lightbox="mygallery" data-title="Moment Ali successfully ran the App on his Raspberry Pi">
+                    <img src="images/tnAliSuccess.jpg" alt="Thumbnail of Ali successfully running the App on Raspberry Pi">
+                </a>
+                <a href="images/ScrumBurnoutChart.jpg" data-lightbox="mygallery" data-title="Scrum Burnout chart to see progress of the project">
+                    <img src="images/tnScrumBurnoutChart.jpg" alt="Thumbnail of Scrum Burnout chart">
+                </a>
+            </div>            
+        </section>
+
+        <!-- This section of the page contains links and embedded youtube videos that are relivent to my website. This is the Video Section -->
+        <section id="videos" class="titlebox">
+            <div class="content">
+                <h1 class="title" style="text-align: center;">Videos</h1>
+                <p style="text-align: center;">
+                    Here are some videos you might be interested in! This section includes our own Binary Gates App showcase and educational programming videos
+                </p>
+            </div>
+            <div class="videos">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YloEKVr0ITM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LN8fBh7LH9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/grEKMHGYyns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+
+  <!-- This is the javascript that I put in this HTML file for ease of access. It controlls the animation for the NAV BAR -->
+  <script type="text/javascript">
+      //NAV BAR JS
+      // Menu-toggle button
+      $(document).ready(function() {
+          $(".menu-icon").on("click", function() {
+              $("nav ul").toggleClass("showing");
+          });
+      });
+      // Scrolling Effect
+      $(window).on("scroll", function() {
+          if ($(window).scrollTop()) {
+              $('nav').addClass('black');
+          } else {
+              $('nav').removeClass('black');
+          }
+      })
+  </script>
+
+</body>
+</html>
